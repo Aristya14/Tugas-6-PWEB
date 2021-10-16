@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(to right,#033c72, #1c1ea1,#c772ff,#ff1cb3 )
+background:url("https://lh3.googleusercontent.com/pzUfuJTCHiO3OMLpjn6B8vw8EU9AhgHt2ATDhZ4T0gTsWp2AWKfwHLv_U1WK0-vn9Ak=h500");
+
 }
 
 .card {
@@ -11,11 +12,11 @@ body {
 }
 
 .box {
-    width: 500px;
+    width: 750px;
     padding: 40px;
     position: absolute;
     top: 50%;
-    left: 60%;
+    left: 30%;
     background: black;
     height: 625px;
     border-radius: 50px;
