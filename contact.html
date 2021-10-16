@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <form onsubmit="return submitForm()" class="box">
+                        <h1>Contact Us</h1>
+                        <p class="text-muted"> Drop your Message!</p>
+                        <input type="text" name="" placeholder="Username">
+                        <input type="password" name="" placeholder="Password">
+                        <input type="text" name="" placeholder="E-mail">
+                        <input type="message" name="" placeholder="Enter Your Message">
+                        <input type="submit" name="" value="Submit" href="#">
+                        <div style="text-align: center;">
+                            <h5>Click <a href="index.html" class="text-danger">here</a> if you want to Login </h5>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function submitForm() {
+            alert("Data telah disubmit");
+        }
+    </script>
+</body>
+
+</html>
