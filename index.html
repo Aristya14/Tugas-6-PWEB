@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
@@ -18,22 +17,34 @@
             <div class="col-md-6">
                 <div class="card">
                     <form onsubmit="return submitForm()" class="box">
-                        <h1 style="margin-top: 20px;margin-bottom: 50px;">Login</h1>
-                        <p class="text-muted"> Please enter your login and password!</p>
-                        <input type="text" name="" placeholder="Username" required>
-                        <input type="password" name="" placeholder="Password" required>
-                        <a class="forgot text-muted" href="#">Forgot password?</a>
-                        <input type="submit" name="" value="Login" href="#">
-                    
-                    <div style="text-align: center; margin-top: 60px;">
-                            <h5 >Have a message for us?</h5>
-                            <a href="contact.html" class="text-danger">Click here</a>
-                    </div>
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="https://www.freepnglogos.com/uploads/hogwarts-logo-png/hogwarts-logo-shadopro-deviantart-0.png" style="text-align: left; width: 330px; height: 330px;">
+                                </td>
+                                <td>
+                                    <h1 style="margin-top: 20px;margin-bottom: 50px;">Login</h1>
+                                    <p class="text-muted"> Please enter your login and password!</p>
+                                    <input type="text" name="" placeholder="Username" required>
+                                    <input type="password" name="" placeholder="Password" required>
+                                    <a class="forgot text-muted" href="#">Forgot password?</a>
+                                    <input type="submit" name="" value="Login" href="#">
+
+                                    <div style="text-align: center; margin-top: 60px;">
+                                        <h5>Have a message for us?</h5>
+                                        <a href="contact.html" class="text-danger">Click here</a>
+                                    </div>
+                                </td>
+
+                            </tr>
+                        </table>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script>
         function submitForm() {
             alert("Data telah disubmit");
